@@ -53,11 +53,14 @@ ul {
 }
 button {
     background-color: #3882f6;
-    padding: 8px 16px;
+    padding: 8px 25px;
+    margin: 0;
     border-radius: 10px;
     color: white;
     font-size: 16px;
     font-weight: bold;
+    width: 120px;
+    height: 38px;
 }
 .body {
     display: flex;
@@ -100,4 +103,29 @@ button {
     text-align: end;
     font-style: normal;
     font-weight: 900;
+}
+.action {
+    padding: 100px 150px;
+}
+.sign-card {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+.sign-button {
+    border:1px solid white;
+    margin-top: auto;
+}
+.sign-card .title {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+.card-text p {
+    margin: 0;
+    padding: 0;
 }
